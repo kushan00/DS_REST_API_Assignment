@@ -94,7 +94,13 @@ const BookRoom = () => {
     if(data?.data?._id != "")
     {
         alert("payment successFull");
-        window.location.reload();
+        setshowAddForm(false);
+        setshowTable(false);
+        setshowPayment(false);
+        setShowSelection(false);
+        setShowTaxiSelection(true);
+        setShowTaxiForm(false);
+        
     }
     else
     {
