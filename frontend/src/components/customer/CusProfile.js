@@ -203,9 +203,9 @@ const CusProfile = () => {
                                     <td>{resevations?.room?.RoomPrice * resevations?.res?.RoomReservedDays}</td>
                                     <td>
                                         {/* <Link to ={{pathname:`/updateResevationByID/${resevations?.res?._id}`}}>
-                                    <button  type="button"  class="btn btn-primary" style={{marginTop:'10px'}} > Update </button>
+                                    <button  type="button"  className="btn btn-primary" style={{marginTop:'10px'}} > Update </button>
                                     </Link>&nbsp; */}
-                                        <button type="button" onClick={() => deleteresevations(resevations?.res?._id)} class="btn btn-danger" style={{ marginTop: '10px' }} >Cancel resevation </button>
+                                        <button type="button" onClick={() => deleteresevations(resevations?.res?._id)} className="btn btn-danger" style={{ marginTop: '10px' }} >Cancel resevation </button>
                                     </td>
 
                                 </tr>

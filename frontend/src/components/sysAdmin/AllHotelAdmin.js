@@ -191,9 +191,9 @@ const AllHotelAdmin = () => {
                                     <td>{HotelAdmin?.date}</td>
                                     <td>
                                    
-                                    <button  type="button"  class="btn btn-primary" style={{marginTop:'10px'}} onClick={()=>ChangeEditForm(HotelAdmin)}> Update </button>
+                                    <button  type="button"  className="btn btn-primary" style={{marginTop:'10px'}} onClick={()=>ChangeEditForm(HotelAdmin)}> Update </button>
                                     &nbsp;
-                                    <button  type="button" onClick={()=>deleteHotelAdmin(HotelAdmin?._id)} class="btn btn-danger" style={{marginTop:'10px'}} >Delete </button>
+                                    <button  type="button" onClick={()=>deleteHotelAdmin(HotelAdmin?._id)} className="btn btn-danger" style={{marginTop:'10px'}} >Delete </button>
                                     </td>
 
                                 </tr>

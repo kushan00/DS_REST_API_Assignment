@@ -4,7 +4,7 @@ import axios from 'axios';
 let RegisterURL = "http://localhost:8080/user/signup";
 let LoginURL = "http://localhost:8080/user/signin";
 let AuthURL = "http://localhost:8080/user/auth";
-let getAllUsers = "http://localhost:8080/user/getAllUsers";
+let getAllUsers = "http://localhost:8280/users/getallusers";
 let CreateHotelAdmin = "http://localhost:8080/user/createUser";
 let UpdateHotelAdmin = "http://localhost:8080/user/updateUserById/";
 let DeleteHotelAdmin = "http://localhost:8080/user/deleteUser/";

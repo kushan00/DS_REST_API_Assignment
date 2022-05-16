@@ -353,7 +353,7 @@ const BookRoom = () => {
                                     <td>{rooms?.RoomPrice}</td>
                                     <td>{rooms?.date}</td>
                                     <td>                                    
-                                    <button  type="button"  class="btn btn-primary" style={{marginTop:'10px'}} onClick={()=>ChangeAddForm(rooms?._id)} > Reserve </button>                                    
+                                    <button  type="button"  className="btn btn-primary" style={{marginTop:'10px'}} onClick={()=>ChangeAddForm(rooms?._id)} > Reserve </button>                                    
                                     </td>
 
                                 </tr>

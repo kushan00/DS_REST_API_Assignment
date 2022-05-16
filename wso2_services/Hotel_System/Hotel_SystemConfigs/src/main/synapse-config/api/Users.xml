@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/users" name="Users" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" url-mapping="/getallusers">
+        <inSequence>
+            <log>
+                <property name="message" value="display all users"/>
+            </log>
+            <send>
+                <endpoint key="getallusers"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" url-mapping="/signup">
+        <inSequence>
+            <log>
+                <property name="message" value="sign up data"/>
+            </log>
+            <send>
+                <endpoint key="siginup"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="GET" url-mapping="/getuserbyid">
+        <inSequence>
+            <send>
+                <endpoint key="getuserById"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>
