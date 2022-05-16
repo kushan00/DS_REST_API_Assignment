@@ -121,9 +121,9 @@ const AllCustomers = () => {
                                     <td>{customer?.date}</td>
                                     {/* <td>
                                     <Link to ={{pathname:`/updateCustomerByID/${customer?._id}`}}>
-                                    <button  type="button"  class="btn btn-primary" style={{marginTop:'10px'}} > Update </button>
+                                    <button  type="button"  className="btn btn-primary" style={{marginTop:'10px'}} > Update </button>
                                     </Link>&nbsp;
-                                    <button  type="button" onClick={()=>deletecustomer(customer?._id)} class="btn btn-danger" style={{marginTop:'10px'}} >Delete </button>
+                                    <button  type="button" onClick={()=>deletecustomer(customer?._id)} className="btn btn-danger" style={{marginTop:'10px'}} >Delete </button>
                                     </td> */}
 
                                 </tr>

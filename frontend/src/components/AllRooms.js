@@ -116,9 +116,9 @@ const AllRooms = () => {
                                     <td>{rooms?.date}</td>
                                     <td>
                                     <Link to ={{pathname:`/updateroomByID/${rooms?._id}`}}>
-                                    <button  type="button"  class="btn btn-primary" style={{marginTop:'10px'}} > Update </button>
+                                    <button  type="button"  className="btn btn-primary" style={{marginTop:'10px'}} > Update </button>
                                     </Link>&nbsp;
-                                    <button  type="button" onClick={()=>deleteRooms(rooms?._id)} class="btn btn-danger" style={{marginTop:'10px'}} >Delete </button>
+                                    <button  type="button" onClick={()=>deleteRooms(rooms?._id)} className="btn btn-danger" style={{marginTop:'10px'}} >Delete </button>
                                     </td>
 
                                 </tr>
