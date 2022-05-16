@@ -53,7 +53,7 @@ const AllCustomers = () => {
 	return (
 		<div style={{ textAlign: "center" }}>
              <div style={{marginTop:"30px"}}>
-                    <center><h1 style={{color:"purple"}}>Welcome to Hotel Room Resevation System</h1></center> 
+                    <center><h1 style={{color:"purple"}}><b>Welcome to Avanya Hotel</b></h1></center> 
                     <img src=''/>
             </div>
             <br/>
