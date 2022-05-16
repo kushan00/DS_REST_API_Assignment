@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-let getResevationURL = "http://localhost:8080/resevation/getAllresevations";
+let getResevationURL = "http://localhost:8280/resevation/getallresevations";
 let AddResevationURL = "http://localhost:8080/resevation/createReservations";
 let DeleteResevationURL = "http://localhost:8080/resevation/deleteResevation/";
 let getResevationByIdURL = "http://localhost:8080/resevation/getReservationsById/";
