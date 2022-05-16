@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import image from "../images/hotelhome.jpg";
 import image2 from "../images/hotelbooking.png";
 import Map from './Map';
+import "./style.css"
 
 export default function Home() {
 
