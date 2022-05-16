@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-let getRooomsURL = "http://localhost:8080/room/getAllRooms";
+let getRooomsURL = "http://localhost:8280/rooms/getallrooms"; 
 let AddRoomURL = "http://localhost:8080/room/createRoom";
 let DeleteRoomURL = "http://localhost:8080/room/deleteRoom/";
 let getRoomByIdURL = "http://localhost:8080/room/getRoomById/";

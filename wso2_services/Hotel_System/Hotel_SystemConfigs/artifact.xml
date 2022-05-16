@@ -17,4 +17,7 @@
     <artifact name="getuserById" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/endpoints/getuserById.xml</file>
     </artifact>
+    <artifact name="createroom" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/createroom.xml</file>
+    </artifact>
 </artifacts>

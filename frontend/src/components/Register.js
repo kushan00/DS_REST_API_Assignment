@@ -8,6 +8,7 @@ const Register = () => {
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [mobileno, setMobileno] = useState('');
   const [password, setPassword] = useState('');
  
  
@@ -21,6 +22,9 @@ const Register = () => {
     setEmail(e.target.value);
   };
  
+  const handlemobileno = (e) => {
+    setMobileno(e.target.value);
+  };
 
   const handlePassword = (e) => {
     setPassword(e.target.value);
@@ -36,6 +40,7 @@ const Register = () => {
         let newdata = {
             name:name,
             email:email,
+            mobileno:mobileno,
             password:password,
         }
         let cusdata =  await RegisterCustomer(newdata);
@@ -94,6 +99,10 @@ const Register = () => {
                   <input onChange={handleName} className="input"
                   value={name} type="text" /><br/><br/>
           
+                  <label className="label">Mobile no</label>&nbsp;&nbsp;
+                  <input onChange={handlemobileno} className="input"
+                  value={mobileno} type="text" /><br/><br/>
+
                   <label className="label">Email</label>&nbsp;&nbsp;
                   <input onChange={handleEmail} className="input"
                   value={email} type="email" /><br/><br/>

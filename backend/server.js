@@ -13,7 +13,9 @@ const taxi = require("./Routes/TaxiRoutes");
 const app = express();
 const PORT = process.env.PORT || 8080;
 
-app.use(cors());
+app.use(cors({
+  origin:["http://localhost:3000"],
+}));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 

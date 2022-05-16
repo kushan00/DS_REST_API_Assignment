@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <api context="/rooms" name="Rooms" xmlns="http://ws.apache.org/ns/synapse">
-    <resource methods="GET">
+    <resource methods="GET" url-mapping="/getallrooms">
         <inSequence>
             <log>
                 <property name="message" value="display all rooms"/>
             </log>
             <send>
                 <endpoint key="getallrooms"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" url-mapping="/createroom">
+        <inSequence>
+            <send>
+                <endpoint key="createroom"/>
             </send>
         </inSequence>
         <outSequence>

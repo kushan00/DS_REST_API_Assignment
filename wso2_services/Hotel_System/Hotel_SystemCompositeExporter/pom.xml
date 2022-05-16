@@ -9,6 +9,7 @@
   <name>Hotel_SystemCompositeExporter</name>
   <description>Hotel_SystemCompositeExporter</description>
   <properties>
+    <com.example.endpoint_._createroom>capp/EnterpriseServiceBus</com.example.endpoint_._createroom>
     <com.example.endpoint_._siginup>capp/EnterpriseServiceBus</com.example.endpoint_._siginup>
     <com.example.endpoint_._getallrooms>capp/EnterpriseServiceBus</com.example.endpoint_._getallrooms>
     <com.example.endpoint_._getallusers>capp/EnterpriseServiceBus</com.example.endpoint_._getallusers>
@@ -32,12 +33,6 @@
     </dependency>
     <dependency>
       <groupId>com.example.endpoint</groupId>
-      <artifactId>getallrooms</artifactId>
-      <version>1.0.0</version>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.endpoint</groupId>
       <artifactId>getallusers</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
@@ -51,6 +46,18 @@
     <dependency>
       <groupId>com.example.endpoint</groupId>
       <artifactId>getuserById</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.endpoint</groupId>
+      <artifactId>getallrooms</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.endpoint</groupId>
+      <artifactId>createroom</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
     </dependency>
