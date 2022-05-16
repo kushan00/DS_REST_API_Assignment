@@ -44,7 +44,7 @@ const BookRoom = () => {
 
    const [Username,setUsername]=useState("");
    const [Useremail,setUseremail]=useState("");
-   const [Usermobileno,setUsermobileno]=useState("");
+   const [Usermobileno,setUsermobileno]=useState("94");
    const [amount,setamount]=useState("");
    const [BankName,setBankName]=useState("");
    const [CardNo,setCardNo]=useState("");
