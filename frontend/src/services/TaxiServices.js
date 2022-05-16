@@ -10,7 +10,7 @@ export async function bookTaxiForCustomer(data) {
     const alldata = {
         Name:data?.Name,
         Address:data?.Address,
-        email :data?. email,
+        email :data?.email,
         mobileno:data?.mobileno
     };
 
