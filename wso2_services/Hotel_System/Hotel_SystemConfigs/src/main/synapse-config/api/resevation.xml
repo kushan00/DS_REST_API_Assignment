@@ -14,4 +14,18 @@
         </outSequence>
         <faultSequence/>
     </resource>
+    <resource methods="POST" url-mapping="/createresevation">
+        <inSequence>
+            <log>
+                <property name="message" value="input resevation"/>
+            </log>
+            <send>
+                <endpoint key="createresevation"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
 </api>

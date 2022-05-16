@@ -26,4 +26,7 @@
     <artifact name="getallresevations" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/endpoints/getallresevations.xml</file>
     </artifact>
+    <artifact name="createresevation" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/createresevation.xml</file>
+    </artifact>
 </artifacts>
